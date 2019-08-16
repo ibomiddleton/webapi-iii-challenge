@@ -1,6 +1,6 @@
 const express = 'express';
-
 const router = express.Router();
+const Hubs = require('./posts/postDb.js');
 
 router.get('/', (req, res) => {
 
